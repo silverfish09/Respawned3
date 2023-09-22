@@ -1,0 +1,361 @@
+[02:23:02] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.14.22
+[02:23:02] [ForkJoinPool-1-worker-3/WARN]: Mod letmedespawn uses the version fabric-1.20-1.1.0 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:23:02] [ForkJoinPool-1-worker-7/WARN]: Mod org_eclipse_jgit_org_eclipse_jgit_ssh_apache uses the version 6.7.0.202309050840-r which isn't compatible with Loader's extended semantic version format (Could not parse version number component '202309050840'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:23:02] [ForkJoinPool-1-worker-6/WARN]: Mod org_eclipse_jgit_org_eclipse_jgit_ssh_apache uses the version 6.7.0.202309050840-r which isn't compatible with Loader's extended semantic version format (Could not parse version number component '202309050840'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:23:02] [ForkJoinPool-1-worker-6/WARN]: Mod org_eclipse_jgit_org_eclipse_jgit uses the version 6.7.0.202309050840-r which isn't compatible with Loader's extended semantic version format (Could not parse version number component '202309050840'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:23:02] [ForkJoinPool-1-worker-3/WARN]: Mod org_eclipse_jgit_org_eclipse_jgit uses the version 6.7.0.202309050840-r which isn't compatible with Loader's extended semantic version format (Could not parse version number component '202309050840'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:23:03] [main/WARN]: Warnings were found!
+ - Mod 'Dynamic Lights' (dynamiclights) 1.7+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Dynamic Lights' (dynamiclights) 1.7+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[02:23:03] [main/INFO]: Loading 153 mods:
+	- antixray 1.3.1
+	   \-- com_moandjiezana_toml_toml4j 0.7.2
+	- anvilrestoration 2.0
+	- auto-plant-crops 1.1.4
+	- betterdeserttemples 1.20-Fabric-3.0.2
+	   \-- org_reflections_reflections 0.10.2
+	- betterdungeons 1.20-Fabric-4.0.2
+	- betterendisland 1.20-Fabric-2.0.2
+	- betterfortresses 1.20-Fabric-2.0.3
+	- betterjungletemples 1.20-Fabric-2.0.2
+	- bettermineshafts 1.20-Fabric-4.0.2
+	- betteroceanmonuments 1.20-Fabric-3.0.2
+	- betterstrongholds 1.20-Fabric-4.0.2
+	- betterwitchhuts 1.20-Fabric-3.0.2
+	- brewery 0.4.3+1.20.1
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- server_translations_api 2.0.0+1.20
+	   |    \-- packet_tweaker 0.4.0+1.19.4
+	   \-- sgui 1.2.2+1.20
+	- bundle_recipe 1-v1.0.0
+	- carpet 1.4.112+v230608
+	- cloth-config 11.1.106
+	   \-- cloth-basic-math 0.6.1
+	- collective 6.66
+	- crops_love_rain 1.4.0
+	   \-- cactusconfig 2.1.1+knot+1.20.1
+	        |-- com_electronwill_night-config_core 3.6.6
+	        |-- com_electronwill_night-config_toml 3.6.6
+	        |-- fabric-rendering-v1 3.0.6+b3afc78b77
+	        \-- spruceui 5.0.0+1.20
+	- deathlog 0.3.2+1.20
+	- dynamiclights 1.7+mod
+	- fabric-api 0.89.0+1.20.1
+	   |-- fabric-api-base 0.4.30+7abfd51577
+	   |-- fabric-api-lookup-api-v1 1.6.35+4d8536c977
+	   |-- fabric-biome-api-v1 13.0.10+b3afc78b77
+	   |-- fabric-block-api-v1 1.0.10+92a0d36777
+	   |-- fabric-block-view-api-v2 1.0.0+92a0d36777
+	   |-- fabric-blockrenderlayer-v1 1.1.40+b3afc78b77
+	   |-- fabric-client-tags-api-v1 1.1.1+97bb207577
+	   |-- fabric-command-api-v1 1.2.33+f71b366f77
+	   |-- fabric-command-api-v2 2.2.12+b3afc78b77
+	   |-- fabric-commands-v0 0.2.50+df3654b377
+	   |-- fabric-containers-v0 0.1.63+df3654b377
+	   |-- fabric-content-registries-v0 4.0.9+b3afc78b77
+	   |-- fabric-convention-tags-v1 1.5.4+a1a980da77
+	   |-- fabric-crash-report-info-v1 0.2.18+aeb40ebe77
+	   |-- fabric-data-generation-api-v1 12.3.0+0883a8d477
+	   |-- fabric-dimensions-v1 2.1.53+8536527b77
+	   |-- fabric-entity-events-v1 1.5.22+b3afc78b77
+	   |-- fabric-events-interaction-v0 0.6.1+e91849a877
+	   |-- fabric-events-lifecycle-v0 0.2.62+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.38+b04edc7a77
+	   |-- fabric-item-api-v1 2.1.27+b3afc78b77
+	   |-- fabric-item-group-api-v1 4.0.10+23d9108177
+	   |-- fabric-key-binding-api-v1 1.0.36+fb8d95da77
+	   |-- fabric-keybindings-v0 0.2.34+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.21+b3afc78b77
+	   |-- fabric-loot-api-v2 1.1.39+b3afc78b77
+	   |-- fabric-loot-tables-v1 1.1.43+9e7660c677
+	   |-- fabric-message-api-v1 5.1.7+3265161977
+	   |-- fabric-mining-level-api-v1 2.1.49+b3afc78b77
+	   |-- fabric-model-loading-api-v1 1.0.2+709a987177
+	   |-- fabric-models-v0 0.4.1+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.10+eeb8eb3677
+	   |-- fabric-networking-v0 0.3.50+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.1+6beca84877
+	   |-- fabric-particles-v1 1.1.1+201a23a077
+	   |-- fabric-recipe-api-v1 1.0.20+b3afc78b77
+	   |-- fabric-registry-sync-v0 2.3.2+4df89eb277
+	   |-- fabric-renderer-api-v1 3.2.0+39a511ba77
+	   |-- fabric-renderer-indigo 1.5.0+39a511ba77
+	   |-- fabric-renderer-registries-v1 3.2.45+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.36+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.27+b3afc78b77
+	   |-- fabric-rendering-v0 1.1.48+df3654b377
+	   |-- fabric-rendering-v1 3.0.7+b3afc78b77
+	   |-- fabric-resource-conditions-api-v1 2.3.5+ea08f9d877
+	   |-- fabric-resource-loader-v0 0.11.9+132c48c177
+	   |-- fabric-screen-api-v1 2.0.7+b3afc78b77
+	   |-- fabric-screen-handler-api-v1 1.3.29+b3afc78b77
+	   |-- fabric-sound-api-v1 1.0.12+b3afc78b77
+	   |-- fabric-transfer-api-v1 3.3.1+195226a777
+	   \-- fabric-transitive-access-wideners-v1 4.3.0+6c31357e77
+	- fabricloader 0.14.22
+	- fastback 0.15.6+1.20.1-fabric
+	   |-- com_googlecode_javaewah_javaewah 1.2.3
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- net_i2p_crypto_eddsa 0.3.0
+	   |-- org_apache_sshd_sshd-common 2.10.0
+	   |-- org_apache_sshd_sshd-core 2.10.0
+	   |-- org_eclipse_jgit_org_eclipse_jgit 6.7.0.202309050840-r
+	   |-- org_eclipse_jgit_org_eclipse_jgit_ssh_apache 6.7.0.202309050840-r
+	   |-- packet_tweaker 0.4.0+1.19.4
+	   \-- server_translations_api 2.0.0+1.20
+	        \-- packet_tweaker 0.4.0+1.19.4
+	- ferritecore 6.0.0
+	- healingcampfire 5.1
+	- jamlib 0.6.1+1.20.x
+	- java 20
+	- krypton 0.2.3
+	   \-- com_velocitypowered_velocity-native 3.2.0-SNAPSHOT
+	- ksyxis 1.1
+	- lazydfu 0.1.3
+	- letmedespawn fabric-1.20-1.1.0
+	- lithium 0.11.2
+	- memoryleakfix 1.1.2
+	- minecraft 1.20.1
+	- mineralchance 3.2
+	- mr_minibossbars 1.1
+	- nochatreports 1.20.1-v2.2.2
+	   |-- fabric-rendering-v1 3.0.6+b3afc78b82
+	   \-- fabric-screen-api-v1 2.0.6+b3afc78b82
+	- nohostilesaroundcampfire 5.6
+	- notenoughcrashes 4.4.6+1.20.1
+	- owo 0.11.2+1.20
+	   \-- blue_endless_jankson 1.2.2
+	- restart-server 1.1.1+mc1.19.x-1.20.x
+	- rightclickharvest 3.2.3+1.19.x-1.20.1-fabric
+	- seasons 2.3+1.20
+	- sit 1.0.2+1.20-1.20.1
+	- slumber 1.1.3
+	- spark 1.10.53
+	- spawnermod 1.2.4
+	- starlight 1.1.2+fabric.dbc156f
+	- styled-nicknames 1.2.1+1.20
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   \-- player-data-api 0.2.2+1.19.3
+	- styled-sidebars 1.1.0+1.20
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- player-data-api 0.2.2+1.19.3
+	   \-- sidebar-api 0.1.2+1.19.3
+	- styledchat 2.2.3+1.20.1
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- placeholder-api 2.1.3+1.20.1
+	   \-- player-data-api 0.2.2+1.19.3
+	- styledplayerlist 3.1.1+1.20.1
+	   \-- player-data-api 0.2.2+1.19.3
+	- tabtps-fabric 1.3.18
+	   |-- adventure-platform-fabric 5.10.0-SNAPSHOT
+	   |    |-- net_kyori_adventure-api 4.14.0
+	   |    |-- net_kyori_adventure-key 4.14.0
+	   |    |-- net_kyori_adventure-platform-api 4.3.0
+	   |    |-- net_kyori_adventure-text-logger-slf4j 4.14.0
+	   |    |-- net_kyori_adventure-text-minimessage 4.14.0
+	   |    |-- net_kyori_adventure-text-serializer-ansi 4.14.0
+	   |    |-- net_kyori_adventure-text-serializer-gson 4.14.0
+	   |    |-- net_kyori_adventure-text-serializer-json 4.14.0
+	   |    |-- net_kyori_adventure-text-serializer-plain 4.14.0
+	   |    |-- net_kyori_ansi 1.0.1
+	   |    |-- net_kyori_examination-api 1.3.0
+	   |    \-- net_kyori_examination-string 1.3.0
+	   |-- cloud 1.8.3
+	   |    |-- cloud_commandframework_cloud-brigadier_ 1.8.3
+	   |    |-- cloud_commandframework_cloud-core_ 1.8.3
+	   |    |-- cloud_commandframework_cloud-services_ 1.8.3
+	   |    |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |    \-- io_leangen_geantyref_geantyref 1.3.13
+	   |-- cloud_commandframework_cloud-minecraft-extras 1.8.3
+	   |-- com_typesafe_config 1.4.2
+	   |-- net_kyori_adventure-serializer-configurate4 4.14.0
+	   |-- net_kyori_adventure-text-feature-pagination 4.0.0-SNAPSHOT
+	   |-- net_kyori_adventure-text-serializer-legacy 4.14.0
+	   |-- org_spongepowered_configurate-core 4.1.2
+	   \-- org_spongepowered_configurate-hocon 4.1.2
+	- toggleableitemframes 2.1.2-1.20.x
+	- universal-graves 3.0.0+1.20.1
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.2-SNAPSHOT
+	   |-- placeholder-api 2.1.3+1.20.1
+	   |-- polymer-core 0.5.15+1.20.1
+	   |    |-- polymer-networking 0.5.15+1.20.1
+	   |    |    \-- polymer-common 0.5.15+1.20.1
+	   |    |         |-- com_github_llamalad7_mixinextras 0.2.0-rc.1
+	   |    |         \-- packet_tweaker 0.4.0+1.19.4
+	   |    \-- polymer-registry-sync-manipulator 0.5.15+1.20.1
+	   |-- polymer-resource-pack 0.5.15+1.20.1
+	   |    \-- polymer-common 0.5.15+1.20.1
+	   |         |-- com_github_llamalad7_mixinextras 0.2.0-rc.1
+	   |         \-- packet_tweaker 0.4.0+1.19.4
+	   |-- polymer-virtual-entity 0.5.15+1.20.1
+	   |    \-- polymer-common 0.5.15+1.20.1
+	   |         |-- com_github_llamalad7_mixinextras 0.2.0-rc.1
+	   |         \-- packet_tweaker 0.4.0+1.19.4
+	   |-- predicate-api 0.2.1+1.20.1
+	   |-- server_translations_api 2.0.0+1.20
+	   |    \-- packet_tweaker 0.4.0+1.19.4
+	   \-- sgui 1.2.2+1.20
+	- yungsapi 1.20-Fabric-4.0.1
+	   \-- org_javassist_javassist 3.29.2-GA
+	- yungsbridges 1.20-Fabric-4.0.2
+	- yungsextras 1.20-Fabric-4.0.2
+[02:23:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/D:/mscc/servers/Respawned/libraries/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[02:23:03] [main/INFO]: Compatibility level set to JAVA_17
+[02:23:03] [main/INFO]: Loaded configuration file for Lithium: 115 options available, 2 override(s) found
+[02:23:03] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:03] [main/WARN]: Reference map 'yungsextras.refmap.json' for yungsextras_fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:23:03] [main/WARN]: Error loading class: net/minecraft/class_636 (java.lang.ClassNotFoundException: net/minecraft/class_636)
+[02:23:03] [main/WARN]: @Mixin target net.minecraft.class_636 was not found auto-plant-crops.mixins.json:ClientPlayerInteractionMixin2 from mod auto-plant-crops
+[02:23:03] [main/WARN]: Force-disabling mixin 'alloc.blockstate.StateMixin' as rule 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[02:23:03] [main/WARN]: Force-disabling mixin 'world.player_chunk_tick.ThreadedAnvilChunkStorageMixin' as rule 'mixin.world.player_chunk_tick' (added by mods [krypton]) disables it and children
+[02:23:04] [main/WARN]: Error loading class: net/coderbot/iris/Iris (java.lang.ClassNotFoundException: net/coderbot/iris/Iris)
+[02:23:04] [main/WARN]: @Mixin target net.coderbot.iris.Iris was not found notenoughcrashes.fabric.mixins.json:iris.SilentNEC from mod notenoughcrashes
+[02:23:04] [main/WARN]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage)
+[02:23:04] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[02:23:04] [main/INFO]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[02:23:04] [main/INFO]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[02:23:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0-rc.1).
+[02:23:06] [main/INFO]: Mixing server.MixinDedicatedServer from mixins/common/nochatreports.mixins.json into net.minecraft.class_3176
+[02:23:06] [main/INFO]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.class_2540
+[02:23:06] [main/INFO]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md046df5$nochatreports$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[02:23:06] [main/INFO]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md046df5$nochatreports$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf from mod nochatreports
+[02:23:07] [main/INFO]: auto-plant-crops.mixins.json:NetherWartBlockMixin from mod auto-plant-crops->@Accessor[FIELD_GETTER]::getAGE()Lnet/minecraft/class_2758; should be static as its target is
+[02:23:07] [main/INFO]: auto-plant-crops.mixins.json:NetherWartBlockMixin from mod auto-plant-crops->@Accessor[FIELD_GETTER]::getMaxAge()I should be static as its target is
+[02:23:07] [main/INFO]: auto-plant-crops.mixins.json:CocoaBlockMixin from mod auto-plant-crops->@Accessor[FIELD_GETTER]::getAGE()Lnet/minecraft/class_2758; should be static as its target is
+[02:23:07] [main/INFO]: auto-plant-crops.mixins.json:CocoaBlockMixin from mod auto-plant-crops->@Accessor[FIELD_GETTER]::getMaxAge()I should be static as its target is
+[02:23:09] [main/INFO]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.class_3244
+[02:23:10] [main/WARN]: Method overwrite conflict for getConnection in fabric-networking-api-v1.mixins.json:accessor.ServerPlayNetworkHandlerAccessor from mod fabric-networking-api-v1, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[02:23:10] [main/WARN]: Method overwrite conflict for getConnection in krypton.mixins.json:shared.network.util.ServerPlayNetworkHandlerAccessor from mod krypton, previously written by carpet.mixins.ServerGamePacketListenerImpl_coreMixin. Skipping method.
+[02:23:11] [main/INFO]: Hello Fabric world!
+[02:23:11] [main/INFO]: Reflections took 78 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 3 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[02:23:11] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 1 values
+[02:23:12] [main/INFO]: Cactus Config is being initialized.
+[02:23:12] [main/INFO]: Loading Collective version 6.66.
+[02:23:12] [main/INFO]: general
+[02:23:12] [main/INFO]: individual
+[02:23:12] [main/INFO]: [Dynamic Lights] Loaded Dynamic Lights by Tschipcraft successfully!
+[02:23:12] [main/INFO]: [jamlib] Mod initialized!
+[02:23:12] [main/INFO]: Compression will use Java, encryption will use Java
+[02:23:12] [main/WARN]: Ksyxis will speedup your world loading. :P
+[02:23:12] [main/WARN]: BUT IT MAY CAUSE ISSUES (INCLUDING COMPAT). DON'T ASK OTHER MODS' AUTHORS FOR COMPAT!
+[02:23:12] [main/INFO]: KONNICHIWA ZA WARUDO!
+[02:23:12] [main/INFO]: Default JVM text encoding is: UTF-8
+[02:23:12] [main/INFO]: Reading config file NoChatReports/NCR-Common.json...
+[02:23:12] [main/INFO]: Writing config file NoChatReports/NCR-Common.json...
+[02:23:12] [main/INFO]: Noaaan: It's surprising how much knowledge is lost by the simple fact that people don't know it
+[02:23:12] [main/INFO]: [rightclickharvest] Initializing VersionUtils
+[02:23:12] [main/INFO]: [rightclickharvest] VersionUtils initialized successfully
+[02:23:12] [main/INFO]: [jamlib] Registered config for rightclickharvest
+[02:23:12] [main/INFO]: [rightclickharvest] Mod initialized!
+[02:23:12] [main/INFO]: [Fabric Seasons] Trying to read config file...
+[02:23:12] [main/INFO]: [Fabric Seasons] A config file was found, loading it..
+[02:23:12] [main/INFO]: [Fabric Seasons] Successfully loaded config file.
+[02:23:12] [main/INFO]: Reading config values from file.
+[02:23:12] [main/INFO]: Done initializing TabTPS.
+[02:23:13] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 4 values
+[02:23:13] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 4 values
+[02:23:13] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:13] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:13] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:13] [main/INFO]: Reflections took 0 ms to scan 1 urls, producing 1 keys and 2 values
+[02:23:13] [main/INFO]: Successfully initialized antixray on fabric
+[02:23:13] [main/WARN]: git is not installed.
+[02:23:13] [main/WARN]: git-lfs is not installed.
+[02:23:13] [main/INFO]: SshSessionFactory: org.eclipse.jgit.transport.sshd.SshdSessionFactory@231c1a6c
+[02:23:13] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[02:23:13] [main/INFO]: [Restart Server] Loading!
+[02:23:13] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02:23:13] [main/WARN]: Missing metadata in pack file/MoreGrass-Ganaka_1.zip
+[02:23:15] [main/INFO]: Loaded 7 recipes
+[02:23:15] [main/ERROR]: Parsing error loading custom advancement bob:use_banner_on_bed: Failed to parse 'location' field
+[02:23:15] [main/INFO]: Loaded 1285 advancements
+[02:23:15] [main/INFO]: [Fabric Seasons] Successfully loaded 15 custom crop configs.
+[02:23:15] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 221 translation keys
+[02:23:15] [main/INFO]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.class_3324
+[02:23:15] [main/INFO]: Applied 217 biome modifications to 53 of 64 new biomes in 24.30 ms
+[02:23:15] [Server thread/INFO]: Starting background profiler...
+[02:23:16] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[02:23:16] [Server thread/ERROR]: Something went wrong while reading config!
+[02:23:16] [Server thread/INFO]: [STDERR]: java.lang.NullPointerException: Cannot invoke "eu.pb4.styledsidebars.config.data.SidebarDefinition$Line.input()" because "x" is null
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at eu.pb4.styledsidebars.config.SidebarHandler.lambda$updateLines$0(SidebarHandler.java:42)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at eu.pb4.styledsidebars.config.SidebarHandler.updateLines(SidebarHandler.java:42)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at eu.pb4.styledsidebars.config.SidebarHandler.<init>(SidebarHandler.java:32)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at eu.pb4.styledsidebars.config.ConfigManager.lambda$loadConfig$1(ConfigManager.java:78)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1921)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at eu.pb4.styledsidebars.config.ConfigManager.loadConfig(ConfigManager.java:75)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at eu.pb4.styledsidebars.ModInit.lambda$onInitialize$0(ModInit.java:39)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$0(ServerLifecycleEvents.java:38)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.handler$bcc000$fabric-lifecycle-events-v1$beforeSetupServer(MinecraftServer.java:4337)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:646)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:265)
+[02:23:16] [Server thread/INFO]: [STDERR]: 	at java.base/java.lang.Thread.run(Thread.java:1623)
+[02:23:16] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[02:23:16] [Server thread/INFO]: Loading properties
+[02:23:16] [Server thread/INFO]: Default game type: SURVIVAL
+[02:23:16] [Server thread/INFO]: Generating keypair
+[02:23:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:23:16] [Server thread/INFO]: Using default channel type
+[02:23:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:23:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:23:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:23:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:23:16] [Server thread/INFO]: Preparing level "world"
+[02:23:18] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:23:18] [Server thread/INFO]: Not the long loadi-
+[02:23:18] [Server thread/INFO]: Time elapsed: 9 ms
+[02:23:18] [Server thread/INFO]: Done (1.700s)! For help, type "help"
+[02:23:18] [Server thread/ERROR]: Invalid path : Invalid path ''
+[02:23:18] [Server thread/INFO]: Mixing common.MixinServerStatus from mixins/common/nochatreports.mixins.json into net.minecraft.class_2926
+[02:23:23] [Netty Server IO #1/INFO]: Mixing server.MixinServerboundChatCommandPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7472
+[02:23:23] [Netty Server IO #1/INFO]: Mixing server.MixinServerboundChatPacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_2797
+[02:23:23] [Netty Server IO #1/INFO]: Mixing server.MixinServerboundChatSessionUpdatePacket from mixins/common/nochatreports.mixins.json into net.minecraft.class_7861
+[02:23:23] [Server thread/INFO]: Roma4ka9017[/95.135.69.250:64515] logged in with entity id 181 at (128.33876307159449, 74.0, -99.55767037528356)
+[02:23:23] [Server thread/INFO]: Roma4ka9017 joined the game
+[02:24:27] [Server thread/INFO]: Stopping the server
+[02:24:27] [Server thread/INFO]: Stopping server
+[02:24:27] [Server thread/INFO]: Saving players
+[02:24:27] [Server thread/INFO]: Saving worlds
+[02:24:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:24:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:24:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:24:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:24:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:24:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:24:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
