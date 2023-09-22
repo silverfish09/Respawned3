@@ -1,0 +1,26 @@
+{
+  "guid": "0cfcc0e5-f0e3-4329-9355-30f22845863c",
+  "serverTypeGuid": "c45acfcf-b4a1-4733-aab0-f78e1091ae16",
+  "name": "Respawned",
+  "description": "",
+  "creationDate": "2023-09-21T17:09:34.1680554+03:00",
+  "autostart": true,
+  "forceSaveOnStop": true,
+  "stopPrevention": "Elevated",
+  "startupMethode": "JavaStartupLine",
+  "allocatedMemory": 8192,
+  "allocatedMemorySuffix": "GB",
+  "startupLine": "java -Xms256M -Xmx[RAM]M -jar [SERVERTYPE.NAME].jar",
+  "startupBatFilename": "",
+  "serverFileChecksum": "6341843402e69d6920cb56aca53b0aaaef89eb102541b03fa733b7fe875924f7",
+  "serverFileVersion": "",
+  "javaPathOverride": "",
+  "tasks": {
+    "scheduledTasks": []
+  },
+  "backups": {
+    "backupTemplates": [],
+    "backupHistory": []
+  },
+  "subServers": []
+}
