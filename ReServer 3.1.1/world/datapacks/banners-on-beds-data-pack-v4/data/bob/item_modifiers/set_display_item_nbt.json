@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+		"type": "storage",
+		"source": "bob:data"
+	},
+	"ops": [
+		{
+			"target": "{}",
+			"op": "merge",
+			"source": "DisplayItem.tag"
+		}
+	]
+}

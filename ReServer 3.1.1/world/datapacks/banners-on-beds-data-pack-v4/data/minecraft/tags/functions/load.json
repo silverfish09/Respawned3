@@ -1,0 +1,6 @@
+{
+	"values": [
+		"bob:load",
+		"iris_bob:setup/load"
+	]
+}

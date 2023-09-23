@@ -1,0 +1,2 @@
+execute positioned ~ ~0.5625 ~ store result score $patterns bob if entity @e[type=minecraft:armor_stand, tag=bob.banner_pattern, distance=..0.1]
+execute if score $patterns bob matches 1.. positioned ~ ~0.5625 ~ run function bob:get_patterns/start_loop

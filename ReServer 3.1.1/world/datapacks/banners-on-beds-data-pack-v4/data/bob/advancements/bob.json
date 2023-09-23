@@ -1,0 +1,26 @@
+{
+	"display": {
+		"title": "Banners on Beds",
+		"description": {
+			"translate": "%1$s%1111236608$s",
+			"with": [
+				"Use a banner on a bed to change bedsheets",
+				{
+					"translate": "bob.advancements.bob.description"
+				}
+			]
+		},
+		"icon": {
+			"item": "minecraft:white_banner",
+			"nbt": "{BlockEntityTag: {Patterns: [{Pattern: \"glb\", Color: 15}]}}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:aeldrion",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

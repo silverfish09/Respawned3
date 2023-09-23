@@ -1,0 +1,495 @@
+{
+	"type": "command",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:white_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:white_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:orange_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:orange_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:magenta_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:magenta_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:light_blue_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:light_blue_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:yellow_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:yellow_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:lime_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:lime_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:pink_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:pink_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:light_gray_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:light_gray_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:gray_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:gray_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:cyan_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:cyan_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:purple_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:purple_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:blue_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:blue_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:brown_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:brown_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:green_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:green_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:red_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:red_bed"]
+										}
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:black_banner",
+							"functions": [
+								{
+									"function": "minecraft:copy_nbt",
+									"source": {
+										"type": "storage",
+										"source": "bob:data"
+									},
+									"ops": [
+										{
+											"op": "merge",
+											"source": "NewBanner.tag",
+											"target": "{}"
+										}
+									]
+								}	
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"block": {
+											"blocks": ["minecraft:black_bed"]
+										}
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

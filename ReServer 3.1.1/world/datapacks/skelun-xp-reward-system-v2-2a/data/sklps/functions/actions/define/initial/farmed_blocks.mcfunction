@@ -1,0 +1,10 @@
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_crop_wheat
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_crop_beetroots
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_crop_potatoes
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_crop_carrots
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_crop_nether-wart
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_block_nether-wart
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_block_warped-wart
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_block_shroomlight
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_block_sponge
+scoreboard players operation @s Farming_Initial_Blocks += @s Farming_block_wet-sponge
