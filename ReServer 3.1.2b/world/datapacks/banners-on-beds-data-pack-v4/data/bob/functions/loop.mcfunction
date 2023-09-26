@@ -1,3 +1,0 @@
-execute as @a[predicate=bob:holding_banner] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run function bob:holding_banner
-execute as @e[type=minecraft:area_effect_cloud, tag=bob.occupied_bed] at @s unless entity @a[predicate=bob:holding_banner, distance=..6] run function bob:mark_bed_as_free/main
-execute as @e[type=minecraft:armor_stand, tag=bob.banner_pattern] at @s unless block ~ ~ ~ #minecraft:beds run kill @s
