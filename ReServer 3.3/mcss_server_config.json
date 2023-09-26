@@ -16,11 +16,48 @@
   "serverFileVersion": "",
   "javaPathOverride": "",
   "tasks": {
-    "scheduledTasks": []
+    "scheduledTasks": [
+      {
+        "guid": "bdcc5688-a1b0-4994-a34f-5907864b55dc",
+        "name": "Backup",
+        "enabled": true,
+        "playerRequirement": "Empty",
+        "timing": {
+          "interval": 3600,
+          "repeat": true
+        },
+        "job": {
+          "backupIdentifier": "492c1db5-52d5-47c8-b9e1-c2a5ab1a4fbe"
+        }
+      }
+    ]
   },
   "backups": {
-    "backupTemplates": [],
-    "backupHistory": []
+    "backupTemplates": [
+      {
+        "identifier": "492c1db5-52d5-47c8-b9e1-c2a5ab1a4fbe",
+        "templateName": "Backup",
+        "destination": "A:\\ReBack",
+        "compression": "High",
+        "protocol": "Disk",
+        "previousStatus": "NeverRun",
+        "deleteOldBackups": true,
+        "suspendServer": false,
+        "lastRun": "0001-01-01T00:00:00",
+        "fileBlacklist": [],
+        "folderBlacklist": []
+      }
+    ],
+    "backupHistory": [
+      {
+        "name": "Backup",
+        "destination": "A:\\UserData\\Documents\\GitHub\\Respawned3\\Backups\\Backup_1695599141.zip",
+        "lastRun": "2023-09-25T02:50:40.1475447+03:00",
+        "status": "Completed",
+        "protocol": "Disk",
+        "logMessage": ""
+      }
+    ]
   },
   "subServers": []
 }
