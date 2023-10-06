@@ -1,0 +1,13 @@
+[server.pv.addon.broadcast]
+broadcasting_specific = "Трансляція на %s"
+broadcasting_wide = "Трансляція на %s-wide"
+
+[server.pv.addon.broadcast.command]
+world_set = "Встановити трансляцію з режимом world на %s"
+world_usage = "Використання: /vbroadcast world <назви світу>"
+usage = "Використання: /vbroadcast <діапазон|сервер|світ> <діапазон|імена світу>"
+server_set = "Встановити трансляцію з режимом сервера"
+range_set = "Встановити трансляцію з діапазоном %d"
+range_usage = "Використання: /vbroadcast діапазон <число більше 0>"
+[client.pv.activation]
+broadcast = "Трансляція"

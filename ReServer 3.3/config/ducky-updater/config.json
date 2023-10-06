@@ -1,0 +1,5 @@
+{
+  "updateOnStartup": true,
+  "threadCount": 4,
+  "ignoreUpdate": {}
+}

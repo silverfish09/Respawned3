@@ -1,0 +1,17 @@
+{
+  "config_name": "Default",
+  "update_tick_time": 20,
+  "page_change": 5,
+  "title_change": 10,
+  "scroll_speed": 1,
+  "scroll_loop": true,
+  "title": [
+    "<b><#66d1f2>Respawned 3"
+  ],
+  "lines": [
+    "",
+    "<gray>» <white>Час:",
+    "<gray> ▪ <yellow>%server:time%",
+    ""
+  ]
+}

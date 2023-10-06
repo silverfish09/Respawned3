@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "doBackup": false,
+  "message": "Server under maintenance",
+  "motd": "Server under maintenance",
+  "maintenanceIcon": "",
+  "allowedUsers": []
+}

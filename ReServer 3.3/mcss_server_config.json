@@ -6,7 +6,7 @@
   "creationDate": "2023-09-21T17:09:34.1680554+03:00",
   "autostart": true,
   "forceSaveOnStop": true,
-  "stopPrevention": "Elevated",
+  "stopPrevention": "None",
   "startupMethode": "JavaStartupLine",
   "allocatedMemory": 8192,
   "allocatedMemorySuffix": "GB",
@@ -20,7 +20,7 @@
       {
         "guid": "bdcc5688-a1b0-4994-a34f-5907864b55dc",
         "name": "Backup",
-        "enabled": true,
+        "enabled": false,
         "playerRequirement": "Empty",
         "timing": {
           "interval": 3600,
@@ -28,6 +28,21 @@
         },
         "job": {
           "backupIdentifier": "492c1db5-52d5-47c8-b9e1-c2a5ab1a4fbe"
+        }
+      },
+      {
+        "guid": "5761efa0-f035-4b27-ab3b-9d68958ac6b0",
+        "name": "Kick",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "interval": 7200,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/kick @a"
+          ]
         }
       }
     ]
@@ -37,13 +52,13 @@
       {
         "identifier": "492c1db5-52d5-47c8-b9e1-c2a5ab1a4fbe",
         "templateName": "Backup",
-        "destination": "A:\\ReBack",
+        "destination": "D:\\mcss\\ReBack",
         "compression": "High",
         "protocol": "Disk",
-        "previousStatus": "NeverRun",
+        "previousStatus": "Completed",
         "deleteOldBackups": true,
-        "suspendServer": false,
-        "lastRun": "0001-01-01T00:00:00",
+        "suspendServer": true,
+        "lastRun": "2023-10-03T00:45:28.6058364+03:00",
         "fileBlacklist": [],
         "folderBlacklist": []
       }
@@ -51,8 +66,8 @@
     "backupHistory": [
       {
         "name": "Backup",
-        "destination": "A:\\UserData\\Documents\\GitHub\\Respawned3\\Backups\\Backup_1695599141.zip",
-        "lastRun": "2023-09-25T02:50:40.1475447+03:00",
+        "destination": "D:\\mcss\\ReBack\\Backup_1696283128.zip",
+        "lastRun": "2023-10-03T00:46:14.2691579+03:00",
         "status": "Completed",
         "protocol": "Disk",
         "logMessage": ""

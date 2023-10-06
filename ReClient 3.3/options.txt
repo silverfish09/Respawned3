@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:7
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","file/1.1.zip"]
+resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","file/Faithful 32x - 1.20.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:192.168.1.101:25565
 lang:uk_ua

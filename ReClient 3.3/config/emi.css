@@ -146,7 +146,7 @@
 	/**
 	 * The subpanels in the left sidebar
 	 */
-	left-sidebar-subpanels: none;
+	left-sidebar-subpanels: craft-history 1;
 
 	/**
 	 * How many columns and rows of ingredients to limit the left sidebar to

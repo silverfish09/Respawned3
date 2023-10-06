@@ -1,0 +1,4 @@
+namespace: myid
+path: myvalue
+environment: NORMAL
+seed: -1462751712

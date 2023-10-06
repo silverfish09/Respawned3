@@ -5,7 +5,7 @@
   "harmfulForegroundColor": -2130706433,
   "neutralForegroundColor": -2130706433,
   "maxRemainingDuration": 2147483647,
-  "minAmbientAge": 90,
+  "minAmbientAge": 0,
   "hudLayout": {
     "enabled": true,
     "direction": "LEFT_TO_RIGHT",

@@ -17,7 +17,7 @@
   "show_waypoints": true,
   "debug_rendering": false,
   "playerlist_rendering": false,
-  "show_mode": "ALWAYS_ON",
+  "show_mode": "OFF",
   "coordinates_mode": "OFF",
   "generation_type": "HEAD_FIRST",
   "mod_w_p_type": "SHOW_ENABLED",

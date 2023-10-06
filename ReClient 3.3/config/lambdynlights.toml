@@ -19,11 +19,116 @@ mode = "fancy"
 
 	[light_sources.settings]
 
+		[light_sources.settings.block_entities]
+
+			[light_sources.settings.block_entities.minecraft]
+				bed = true
+				calibrated_sculk_sensor = true
+				furnace = true
+				dropper = true
+				daylight_detector = true
+				sign = true
+				jukebox = true
+				brewing_stand = true
+				sculk_sensor = true
+				hanging_sign = true
+				brushable_block = true
+				conduit = true
+				beehive = true
+				dispenser = true
+				smoker = true
+				lectern = true
+				skull = true
+				campfire = true
+				barrel = true
+				chest = true
+				piston = true
+				sculk_shrieker = true
+				end_portal = true
+				shulker_box = true
+				enchanting_table = true
+				banner = true
+				structure_block = true
+				sculk_catalyst = true
+				ender_chest = true
+				bell = true
+				end_gateway = true
+				comparator = true
+				beacon = true
+				command_block = true
+				jigsaw = true
+				hopper = true
+				mob_spawner = true
+				chiseled_bookshelf = true
+				trapped_chest = true
+				decorated_pot = true
+				blast_furnace = true
+
+			[light_sources.settings.block_entities.villagersplus]
+				horticulturist_table_block_entity = true
+				alchemist_table_block_entity = true
+				oceanographer_table_block_entity = true
+				occultist_table_block_entity = true
+
+			[light_sources.settings.block_entities.fab]
+				drying_rack = true
+
+			[light_sources.settings.block_entities.brewery]
+				barrel_spigot = true
+				barrel_part = true
+				cauldron = true
+
+			[light_sources.settings.block_entities.libmultipart]
+				container = true
+
+			[light_sources.settings.block_entities.wiredredstone]
+				redstone_assembler = true
+
+			[light_sources.settings.block_entities.ae2]
+				debug_energy_gen = true
+				crafting_storage = true
+				debug_phantom_node = true
+				sky_tank = true
+				inscriber = true
+				quantum_ring = true
+				paint = true
+				interface = true
+				creative_energy_cell = true
+				cable_bus = true
+				sky_chest = true
+				crafting_unit = true
+				wireless_access_point = true
+				debug_item_gen = true
+				light_detector = true
+				pattern_provider = true
+				energy_acceptor = true
+				condenser = true
+				dense_energy_cell = true
+				crafting_monitor = true
+				vibration_chamber = true
+				debug_chunk_loader = true
+				spatial_pylon = true
+				chest = true
+				controller = true
+				debug_cube_gen = true
+				molecular_assembler = true
+				crank = true
+				cell_workbench = true
+				spatial_io_port = true
+				energy_cell = true
+				charger = true
+				spatial_anchor = true
+				growth_accelerator = true
+				drive = true
+				io_port = true
+
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
+				zombie_horse = true
 				axolotl = true
 				egg = true
+				zoglin = true
 				spawner_minecart = true
 				allay = true
 				llama = true
@@ -47,9 +152,11 @@ mode = "fancy"
 				mooshroom = true
 				glow_item_frame = false
 				snowball = true
+				tnt = true
 				parrot = true
 				creeper = true
 				lightning_bolt = true
+				tadpole = true
 				ravager = true
 				evoker_fangs = true
 				chest_minecart = true
@@ -68,6 +175,7 @@ mode = "fancy"
 				fireball = true
 				illusioner = true
 				eye_of_ender = true
+				wither_skull = true
 				wolf = true
 				block_display = true
 				tnt_minecart = true
@@ -95,9 +203,13 @@ mode = "fancy"
 				armor_stand = true
 				experience_orb = true
 				dolphin = true
+				stray = true
 				shulker = true
 				turtle = true
 				salmon = true
+				wandering_trader = true
+				vex = true
+				wither_skeleton = true
 				piglin_brute = true
 				ocelot = true
 				furnace_minecart = true
@@ -108,12 +220,14 @@ mode = "fancy"
 				evoker = true
 				marker = true
 				glow_squid = true
+				warden = true
 				squid = true
 				shulker_bullet = true
 				enderman = true
 				dragon_fireball = true
 				chicken = true
 				sniffer = true
+				trader_llama = true
 				donkey = true
 				fox = true
 				iron_golem = true
@@ -128,12 +242,21 @@ mode = "fancy"
 				villager = true
 				skeleton_horse = true
 				fishing_bobber = true
+				text_display = true
 				polar_bear = true
 				hopper_minecart = true
 				falling_block = true
 				painting = true
 				interaction = true
+				wither = true
+
+			[light_sources.settings.entities.immersive_portals]
+				nether_portal_new = true
+				loading_indicator = true
 
 			[light_sources.settings.entities.additionaladditions]
 				glow_stick = true
+
+			[light_sources.settings.entities.ae2]
+				tiny_tnt_primed = true
 

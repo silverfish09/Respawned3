@@ -10,7 +10,7 @@
 	// The X position to display the biome info at
 	"posX": 3,
 	// The Y position to display the biome info at
-	"posY": 3,
+	"posY": 6,
 	// The size of the biome info (multiplier)
 	"scale": 1.0,
 	// true if the biome info should be rendered with a shadow, false otherwise
