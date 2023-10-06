@@ -1,6 +1,0 @@
-{
-  "tooltipEnabled": true,
-  "tooltipFormat": "[TIME] залишилось ([%]%)",
-  "timeFormat": "[M]хв [S]с",
-  "timeReportFormat": "Часу польоту залишилось: [TIME] ([%]%)"
-}

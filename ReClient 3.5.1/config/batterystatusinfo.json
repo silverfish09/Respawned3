@@ -1,0 +1,11 @@
+{
+  "lowBatteryThreshold": 20,
+  "checkInterval": 5000,
+  "showLowBatteryAlert": true,
+  "showFullyChargedAlert": false,
+  "showChargingAlert": true,
+  "showDischargingAlert": true,
+  "showHud": true,
+  "showHudWhenFullyCharged": false,
+  "position": "BOTTOM_LEFT"
+}

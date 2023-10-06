@@ -1,0 +1,9 @@
+{
+  "multilingualItemSearch": true,
+  "fallbacks": [
+    "ru_ru"
+  ],
+  "previousFallbacks": [],
+  "language": "uk_ua",
+  "previousLanguage": "uk_ua"
+}
